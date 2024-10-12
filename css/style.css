@@ -1,0 +1,1108 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #999;
+    overflow-x: hidden; 
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#header {
+    position: fixed;
+    background-color: #fff;
+    color: #000;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    padding: 15px 0;
+    box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.3);
+}
+
+.container {
+    max-width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+#header .contan{
+    
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar{
+    
+    padding-right: 30px;
+   
+}
+
+.navbar {
+    flex: 0 0 25%;
+   
+}
+
+.logo{
+    width: 300px;
+    height: 150px;
+}
+
+.logo {
+    flex: 0 0 25%;
+}
+
+.navbar ul{
+    display:flex;
+    text-align: left;
+    list-style: none;
+    padding-top: 15px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 15px 18px;
+    
+    color: #000;
+    width: 100px;
+}
+
+.navbar ul li a:hover{
+    color: #ffc107;
+}
+
+#franchise {
+    padding: 13px 15px;
+    background-color: #f7f700;
+    border: none;
+    border-radius: 20px;
+    width: 98px;
+    height: 42px;
+    font-size: 16px;
+    line-height: 16px;
+     font-weight: 400;
+    cursor: pointer;
+    text-align: right;
+    position: absolute;
+    right: 162px;
+    bottom: 9px;
+}
+
+.banner{
+    background-image: url(img/banner-roms.png);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    height: 640px;
+    width: 100%;
+    position: relative;
+    top: 181px;
+}
+
+.grediyent {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.9;
+}
+
+.delicious {
+    font-size: 150px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.healthy {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #f7f700;
+    text-align: center;
+    letter-spacing: 6px;
+    font-weight: 300;
+    position: relative;
+    z-index: 1;
+}
+
+.delicious span {
+    color: #f7f700;
+}
+
+.pizzaroms{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.pizzaroms img {
+   position: absolute;
+   top: 98px;
+}
+
+
+
+.ascrechimg img {
+    width: 100%;
+}
+
+.ordcotainer{
+    width: 100%;
+    height: auto;
+    padding: 95px 0px;
+    background-color: #FDFD39;
+    position: relative;
+    top: 118px;
+}
+
+.ascrechimg {
+    position: absolute;
+    top: -90px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+.ascrechimg1{
+    position: absolute;
+    bottom: -90px;
+    z-index: 1;
+}
+
+.ordcotainer .container {
+    width: auto;
+    height: auto;
+    padding: 0px 15px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.orderfood{
+    width: 280px;
+    height: 228px;
+    padding: 0px 60px;
+    background-color:transparent;
+   
+} 
+
+.orderfood img {
+display: flex;
+justify-content: center;
+align-items: center;
+margin: auto;
+}
+
+.orderfood h2 {
+
+    font-size: 30px;
+    font-weight: 700;
+    color: #121619;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+
+.orderfood p {
+    font-size: 14px;
+    color: #121619;
+    text-align: center;
+    line-height: 20px;
+}
+
+.fresh-romspc {
+    padding: 240px 0px 95px;
+}
+
+.containerfresh {
+    width: 1200px;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px 15px;
+    
+}
+
+.text_heading {
+    padding-bottom: 50px;
+}
+
+.frfrom_heading {
+    background: black;
+    padding: 4px;
+    font-size: 30px;
+    color: #ffe700;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 50px;
+    text-align: center;
+    
+}
+
+.our-special{
+    font-size: 70px;
+    color: #1d1d1d;
+    line-height: 58px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.speciali-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cheesepizza-con{
+    padding: 0px 15px;
+
+}
+
+.speciali-img {
+    width: 380px;
+    height: 380px;
+    margin: 0 auto;
+}
+
+.speciali-img img {
+    border-radius: 100%;
+}
+
+.Cheese-pizza {
+    text-align: center;
+    font-size: 24px;
+    color: #1d1d1d;
+    padding-top: 25px;
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.view-morespecili {
+    padding: 0px 15px;
+    text-align: center;
+}
+
+.view-morespecili a {
+    background: #f7f700;
+    border: 1px solid #f7f700;
+    color: #000;
+    font-weight: 700;
+    padding: 17px 41px;
+    border-radius: 50px;
+    display: inline-block;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.view-morespecili a:hover{
+    background-color: transparent;
+}
+
+
+.our-presence{
+    position: relative;
+    padding-top: 95px;
+    padding-bottom: 140px;
+    background-color: #fff6f6;
+}
+
+.ascrechim3{
+    position: absolute;
+    top: -26px;
+    
+}
+
+.presence-container {
+    margin: 0px auto;
+    padding: 0px 15px;
+    width: 1200px;
+    padding-top: 30px;
+
+}
+
+.presence-container .text_heading {
+    padding-bottom: 0px;
+}
+
+.fine-nearest {
+    width: 100%;
+    text-align: center;
+    padding: 0px 15px;
+}
+
+.fine-nearest h3 {
+    font-size: 20px;
+    color: #1d1d1d;
+    padding: 24px 0px 0px;
+    margin: 0px;
+    font-weight: 500;
+}
+
+.outlets-select{
+    padding: 50px 0px 0px;
+    margin: 0px 0px 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.state-filter {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+.state-label {
+    width: 30px;
+}
+
+.state-label label {
+    min-width: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.state-filter select {
+    padding: 10px;
+    min-width: 20vw;
+    flex: 1;
+    background-color: #f7f700;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.show-outlest {
+    padding: 0px 15px;
+    margin: 0px 0px 20px;
+}
+
+.Show-button {
+    align-items: center;
+    appearance: none;
+    background-color: #FCFCFD;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+
+.cardoutlest-conataner {
+
+    margin: 0px auto;
+    padding: 0px 15px;
+    width: 1200px;
+    padding-top: 30px;
+
+
+}
+
+.cardoutlest-conataner{
+    display: flex;
+}
+
+.noida-sector62 {
+    padding: 0px 15px;
+    position: relative;
+  
+   
+}
+
+.cart-iterm{
+    width: 380px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    color: #000;
+}
+
+.cart-iterm a {
+    width: 100%;
+    height: auto;
+}
+
+.cart-iterm a img {
+    width: 100%;
+    height: 250px;
+    
+
+}
+
+.card-content {
+    padding: 20px;
+}
+
+
+.heding-card{
+        color: #1d1d1d;
+        margin-bottom: .75rem;
+}
+
+.heding-card a {
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    color: #1d1d1d;
+}
+
+.card-content p {
+    margin: 0px;
+}
+
+.card-buttons {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+}
+
+.card-buicon {
+    border-radius: 0px;
+    width: 100%;
+    height: 44px;
+    background-color: #f7f700;
+    color: #000;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-bottom: 3px solid;
+    border-top: 3px solid;
+    text-decoration: none;
+
+}
+
+.special-menu {
+    background-color: #121619;
+    padding: 140px 0px 120px;
+    position: relative;
+}
+
+
+
+.ascrechim5 {
+    position: absolute;
+    top: -86px;
+    
+}
+
+.specialmenu-container {
+    margin: 0px auto;
+    padding: 0px 15px;
+    width: 1200px;
+   
+}
+
+.specialmenu-list {
+   width: 100%;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   
+   
+   
+}
+
+.spemenuul {
+    background: #2b2c2d;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    
+}
+
+.spemenuul li {
+    list-style: none;
+}
+
+.allmenu a {
+    color: #000;
+    background: #f7f700;
+    border-radius: 50px;
+    display: inline-block;
+    
+
+}
+
+.spemenuul li a {
+
+    text-transform: uppercase;
+    color: #fff;
+    transition: all 400ms ease;
+    font-size: 14px;
+    padding: 14px 28px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.specialmen-pro {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spemecard {
+    width: 270px;
+    padding: 20px 15px 0px;
+
+}
+
+.spemeimg {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    transition: all 400ms ease;
+    top: 0;
+}
+
+.spemeimg a {
+    text-decoration: none;
+}
+
+.menutitle {
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 1px;
+    padding-top: 25px;
+    padding-bottom: 12px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.menutitle:hover {
+    color: #f7f700;
+}
+
+.menubottom img {
+  height: 190px;
+  width: 100%;
+ 
+}
+
+.menubottom {
+   position: absolute;
+   left: 3px;
+   bottom: -110px;
+}
+
+.buy-gefrs {
+    width: 100%;
+    padding: 95px 0px;
+}
+
+.buy-contaner {
+    width: 1200px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+.textbuy-heading {
+
+    margin-bottom: 48px;
+    padding: 0px 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.free-buyg {
+    width: 564px;
+    background: black;
+    padding: 4px;
+    font-size: 30px;
+    color: #ffe700;
+    font-weight: 600;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 4px;
+}
+
+.everyday-dea {
+    font-size: 70px;
+    color: #1d1d1d;
+    line-height: 58px;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+
+.pandingfre {
+    font-size: 14px;
+    color: #121619;
+    padding-top: 20px;
+}
+
+.everyday-product {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-del {
+    padding: 0px 15px;
+    width: 47.5%;
+}
+
+.product-dip {
+    text-align: left;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+
+.start-prodel {
+    display: flex;
+}
+
+.start-prodel .img-box {
+    padding: 0px 15px;
+}
+
+.start-prodel .img-box .img-box2 {
+    width: 160px;
+    height: 160px;
+}
+
+.start-prodel .text-box {
+    padding: 0px 15px;
+    width: 100%;
+}
+
+.tomato-pizzas {
+    font-size: 18px;
+    font-weight: 400;
+    color: #121619;
+    text-transform: uppercase;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    display: block;
+    text-decoration: none;
+
+}
+
+.tomato-pizzas:hover{
+    color: #f7f700;
+}
+
+.our-passion {
+    font-size: 14px;
+    color: #999999;
+    padding-bottom: 8px;
+    font-weight: 300;
+}
+
+.buttonmenu {
+    background-color: #121619;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+.chefbg {
+    content: "";
+    background-image: url(img/chef-bg.png);
+    /* background-image: url(/img/chef-bg.png); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .20;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.topskrach {
+    position: absolute;
+    top: -335px;
+}
+
+.topskrach2 {
+    position: absolute;
+    top: 180px;
+}
+
+.recent-even {
+    padding: 95px 0px;
+}
+
+.recentev-container {
+    width: 1200px;
+    padding: 0px 15px;
+    margin: 0px auto;
+
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallimg-box {
+     width: 370px;
+     height: 292px;
+    padding: 0px 15px;
+}
+
+.what-customers {
+    background: #121619;
+    position: relative;
+    overflow: hidden;
+   padding: 95px 0px;
+}
+
+.whcustomers-container {
+    width: 1200px;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+
+.customer-top {
+    position: absolute;
+    top: -70px;
+}
+
+.customer-det {
+    display: flex;
+}
+
+.customerimg-box {
+    width: 180px;
+}
+
+.img-cusrdel{
+    width: 135px;
+    height: 175px;
+}
+
+.img-cusrdel img {
+    width: 135px;
+    height: 135px;
+    
+}
+
+.Shalugusain {
+    font-size: 16px;
+     text-align: center;
+    color: #f7f700;
+    text-transform: uppercase;
+    padding-top: 10px;
+
+}
+
+.customertext-del {
+    width: calc(100% - 180px);
+    float: left;
+    background: #fff;
+    padding: 40px 50px;
+    position: relative;
+}
+
+.arrow {
+
+    
+        content: "";
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 17.5px 18px 17.5px 0;
+        border-color: transparent #ffffff transparent transparent;
+        position: absolute;
+        left: -18px;
+        top: 50%;
+        transform: translateY(-50%);
+
+}
+
+.customer-tetrid {
+    font-size: 18px;
+    color: #999999;
+    padding-bottom: 15px;
+    font-style: italic;
+
+}
+
+.shaluname{
+    color: #f7f700;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.customer-bottom-bg{
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    overflow: hidden;
+}
+
+.delicious-restaurant {
+    padding: 95px 0px;
+    position: relative;
+    
+}
+
+.deliciousrestaurant-container {
+    width: 1200px;
+    padding: 0px 15px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aboutromsdet {
+   
+    padding: 0px 15px;
+}
+
+.delicious-text {
+    width: 462px;
+    background-color: #121619;
+    padding: 4px;
+    font-size: 30px;
+    color: #ffe700;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 50px;
+}
+
+.about-pizzaroms{
+    width: 502px;
+    font-size: 70px;
+    color: #1d1d1d;
+    line-height: 58px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.foundation{
+    width: 460px;
+    padding-top: 30px;
+    line-height: 23px;
+    font-size: 14px;
+    color: #121619;
+}
+
+.view-more {
+    background: #f7f700;
+    border: 1px solid #f7f700;
+    color: #000;
+    font-weight: 700;
+    padding: 17px 29px;
+    border-radius: 50px;
+    display: inline-block;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none   ;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-top: 35px;
+}
+
+.view-more:hover {
+    border: 1px solid #f7f700;
+    color: #f7f700;
+    background-color: #fff;
+
+}
+
+.upcoming-events{
+    color:  #1d1d1d;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.about-img {
+    margin-top: -160px;
+    padding-left: 60px;
+}
+
+footer{
+    background: #121619;
+    padding-top: 100px;
+
+}
+
+.footer-container {
+    width: 1200px;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+
+.footer{
+    padding-bottom: 95px;
+    border-bottom: 1px solid #202529;
+    display: flex;
+    flex-wrap: wrap ;
+
+}
+
+.footer-box{
+    width: 370px;
+    padding: 0px 15px;
+    
+}
+
+.location{
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 11px;
+}
+
+hr {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+
+}
+
+.romspizzamarket{
+    font-size: 14px;
+    color: #fff;
+    max-width: 240px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+
+.footer-box ul li {
+    list-style: none;
+    color: #fff;
+    padding: 10px 0px;
+}
+
+.footer-box ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.useful-link {
+    padding: 50px 0px 0px;
+}
+
+.useful-link li {
+    list-style: none;
+    padding: 0px 0px 2px;
+}
+
+.useful-link li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 400;
+    
+}
+.useful-link li a:hover{
+    color: #f7f700;
+}
+
+.copyright {
+    padding: 30px 0px;
+    display: flex   ;
+}
+
+.copy-box {
+    width: 570px;
+    padding: 0px 15px;
+}
+
+.right-reserved {
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 1px;
+    padding-top: 10px;
+}
+
+.app-link {
+    display: flex;
+    float: right;
+}
+
+.app-link li {
+    list-style: none;
+    padding-left: 8px;
+    display: inline-block;
+}
+
+.app-link li a {
+    color: #fff;
+    background: #242628;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    text-align: center;
+}
+
+.app-link li a:hover{
+    background-color: #ffe700;
+}
+
+
+
+
+    
